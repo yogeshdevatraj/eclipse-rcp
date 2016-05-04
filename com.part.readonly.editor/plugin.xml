@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Custom Editor"
+            extensions="cstm"
+            icon="icons/sample.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="com.part.readonly.editor.CustomEditor"
+            id="com.part.readonly.editor.cstm">
+      </editor>
+   </extension>
+
+</plugin>
